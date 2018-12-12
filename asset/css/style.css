@@ -1,5 +1,4 @@
-@font-face
-{
+@font-face {
     font-family: 'FontAwesome';
     src: url('../font/FontAwesome.otf');
     src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
@@ -9,21 +8,24 @@
     font-weight: normal;
     font-style: normal;
 }
-#bloc_page {
-    margin-top: 0px;
-    padding-top: 0px;
+
+body{
+    margin: 0px;
+    padding: 0px;
 }
 header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+    width:100%;
+    position: fixed;
+    height:80px;
+    top: 0px;
+    background-color: white;
+    opacity: 0.9;
+    z-index: 1;
 }
-#haut{
-  position: fixed;
-  width:100%;
-  top: 2px;
-  left: 0px;
-}
+
 
 #logo{
 	background-image: url("../img/logo.png");
@@ -32,27 +34,74 @@ header {
 	display: flex;
     margin-left: 50px;
 }
-.active{
-	border-top: 1px solid #21AEFF;
-}
-.active a {
-	color: black;
+nav {
+    margin-left: 50px;
 }
 
 nav ul {
     list-style-type: none;
-    display: flex;
-    margin: 0px 50px 20px;
+    padding-left: 0px;
 }
 
 nav li {
-    padding: 10px 5px 0px ;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 nav a{
     font-size: 18px;
     font-family: 'FontAwesome';
     color: #5E6465;
-    padding: 15px;
     text-decoration: none;
+}
+nav li:hover{
+    border-top: 2px solid #5cadd3;
+    padding-top: 29px;
+}
+
+nav a:hover{
+    color: black;
+}
+#banniere {
+margin-top: 80px;;
+width:100%;
+height:550px;
+background-image: url("../img/slider/bg1.jpg"),url("../img/slider/bg2.jpg");
+}
+strong{
+color: #5cadd3;
+}
+
+#banniere h1{
+margin: 0;
+color: white;
+width: 590px;
+text-transform: uppercase;
+}
+#banniere h2{
+color: white;
+text-decoration: none;
+margin-bottom: 25px;
+}
+#banniere a {
+    text-decoration: none;
+    color: white;
+    background-color: #5cadd3 ;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px #4494BB;
+}
+#texte-banniere {
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+#trait-banniere{
+height: 5px;
+width: 100px;
+background-color: #5cadd3;
+position: absolute;
+bottom: 0px;
 }
