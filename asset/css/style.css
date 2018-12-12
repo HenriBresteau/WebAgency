@@ -7,12 +7,21 @@
          url('../font/fontawesome-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
+
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 
 body{
     margin: 0px;
     padding: 0px;
 }
+
+/* Début Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -63,6 +72,10 @@ nav li:hover{
 nav a:hover{
     color: black;
 }
+
+/* Fin Header */
+
+/*bannierre */
 #banniere {
 margin-top: 80px;;
 width:100%;
@@ -107,5 +120,42 @@ background-color: #5cadd3;
 position: absolute;
 bottom: 0px;
 }
-#services{
+
+/* Fin Banniere */
+
+/* Début Main */
+main{
+font-family:'Roboto';
 }
+
+/* Début SERVICES */
+#titre-service h1{
+text-align: center;
+text-transform: uppercase;
+}
+#trait-titre{
+width: 150px;
+height:1px;
+background-color: gray;
+margin-left: 45%;
+}
+
+#titre-service p {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+#ex-services{
+display: flex;
+justify-content: space-around;
+}
+#ordi {
+margin-top: 35px;
+ }
+ #description{
+ display: flex;
+ flex-direction: column;
+ margin-top: 35px;
+ }
+ /* Fin SERVICES */
