@@ -1,0 +1,58 @@
+@font-face
+{
+    font-family: 'FontAwesome';
+    src: url('../font/FontAwesome.otf');
+    src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fontawesome-webfont.woff') format('woff'),
+         url('../font/fontawesome-webfont.ttf') format('truetype'),
+         url('../font/fontawesome-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#bloc_page {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#haut{
+  position: fixed;
+  width:100%;
+  top: 2px;
+  left: 0px;
+}
+
+#logo{
+	background-image: url("../img/logo.png");
+	width: 261px;
+	height: 57px;
+	display: flex;
+    margin-left: 50px;
+}
+.active{
+	border-top: 1px solid #21AEFF;
+}
+.active a {
+	color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px 50px 20px;
+}
+
+nav li {
+    padding: 10px 5px 0px ;
+}
+
+nav a{
+    font-size: 18px;
+    font-family: 'FontAwesome';
+    color: #5E6465;
+    padding: 15px;
+    text-decoration: none;
+}
