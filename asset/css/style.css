@@ -12,16 +12,26 @@
     src: url('../font/Roboto-Regular.ttf');
     font-weight: normal;
     font-style: normal;
-
 }
 
+@font-face {
+ font-family: 'Glyphicons Halflings';
+ src: url('../font/glyphicons-halflings-regular.eot');
+ src: url('../font/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+      url('../font/glyphicons-halflings-regular.woff') format('woff'),
+      url('../font/glyphicons-halflings-regular.ttf') format('truetype'),
+      url('../font/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
 
 body{
     margin: 0px;
     padding: 0px;
 }
+* {
+  box-sizing: border-box;
+}
 
-/* Début Header */
+/*--------------  Début Header--------------  */
 header {
     display: flex;
     justify-content: space-between;
@@ -32,7 +42,7 @@ header {
     top: 0px;
     background-color: white;
     opacity: 0.9;
-    z-index: 1;
+    z-index: 2;
 }
 
 
@@ -73,9 +83,9 @@ nav a:hover{
     color: black;
 }
 
-/* Fin Header */
+/*--------------  Fin Header--------------  */
 
-/*bannierre */
+/*-------------- bannierre -------------- */
 #banniere {
 margin-top: 80px;;
 width:100%;
@@ -84,7 +94,7 @@ background-image: url("../img/slider/bg1.jpg");
 overflow: hidden;
 position: relative;
 }
-strong{
+#banniere strong{
 color: #5cadd3;
 }
 
@@ -121,14 +131,14 @@ position: absolute;
 bottom: 0px;
 }
 
-/* Fin Banniere */
+/*--------------  Fin Banniere -------------- */
 
-/* Début Main */
+/*--------------  Début Main --------------  */
 main{
 font-family:'Roboto';
 }
 
-/* Début SERVICES */
+/*--------------  Début SERVICES--------------  */
 #titre-service h1{
 text-align: center;
 text-transform: uppercase;
@@ -141,11 +151,11 @@ margin-left: 45%;
 }
 
 #titre-service p {
-    text-align: center;
-    width: 600px;
-    margin: auto;
-    display: block;
-}
+     text-align: center;
+     width: 600px;
+     margin: auto;
+     display: block;
+ }
 #ex-services{
 display: flex;
 justify-content: space-around;
@@ -158,4 +168,70 @@ margin-top: 35px;
  flex-direction: column;
  margin-top: 35px;
  }
- /* Fin SERVICES */
+ /*--------------  Fin SERVICES--------------  */
+ /*--------------  Début PROJET--------------  */
+ #titre-projet h1{
+ text-align: center;
+ text-transform: uppercase;
+ }
+ #trait-projet{
+ width: 150px;
+ height:1px;
+ background-color: gray;
+ margin-left: 45%;
+ }
+
+ #titre-projet p {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  display: block;
+}
+/* -------------- FIN PROJET -------------- */
+
+/*-------------- Debut CONTACT ------------------*/
+#contact{
+padding:5%;
+font-family: 'Roboto';
+}
+
+#contact iframe{
+width:92%;
+height: 100%;
+position: absolute;
+z-index: 0;
+}
+#infos{
+ margin: 35px 70%;
+ z-index:1;
+ position: relative;
+ padding:10px;
+ background:#F5F5F5;
+ opacity: 0.9;
+ width:400px;
+ border: 1px solid #ccc;
+ border-radius: 15px;
+ }
+
+#infos h1{
+line-height: 0.4;
+}
+#infos h2{
+font-size: 17px;}
+
+input[type=text], input[type=email], textarea{
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-top: 6px;
+margin-bottom: 16px;
+}
+input[type=submit] {
+  background-color: #5cadd3;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid ##5cadd3;
+  border-radius: 5px;
+  cursor: pointer;
+}
