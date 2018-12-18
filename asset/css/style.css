@@ -14,14 +14,6 @@
     font-style: normal;
 }
 
-@font-face {
- font-family: 'Glyphicons Halflings';
- src: url('../font/glyphicons-halflings-regular.eot');
- src: url('../font/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
-      url('../font/glyphicons-halflings-regular.woff') format('woff'),
-      url('../font/glyphicons-halflings-regular.ttf') format('truetype'),
-      url('../font/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
-}
 
 body{
     margin: 0px;
@@ -71,7 +63,7 @@ nav li {
 nav a{
     font-size: 18px;
     font-family: 'FontAwesome';
-    color: #5E6465;
+    color: #181819;
     text-decoration: none;
 }
 nav li:hover{
@@ -186,6 +178,41 @@ margin-top: 35px;
   width: 600px;
   margin: auto;
   display: block;
+}
+#menu-projet{
+    text-align: center;
+}
+#menu-projet ul{
+    list-style-type: none;
+}
+#menu-projet li{
+    display: inline;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 5px;
+}
+#menu-projet li:hover{
+    color: white;
+    background-color: #5cadd3 ;
+    border-radius: 5px;
+}
+figure {
+    display: inline-flex;
+    flex-flow: column;
+    width: 300px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+figcaption:hover{
+    background-color: #222;
+    color: #fff;
+    font: 'Roboto';
+    padding: 3px;
+    text-align: center;
 }
 /* -------------- FIN PROJET -------------- */
 
