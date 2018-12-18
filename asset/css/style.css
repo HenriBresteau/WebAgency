@@ -135,13 +135,26 @@ font-family:'Roboto';
 text-align: center;
 text-transform: uppercase;
 }
-#trait-titre{
+.trait{
 width: 150px;
-height:1px;
 background-color: gray;
-margin-left: 45%;
+margin: 50px auto;
+padding-left: 65px;
+height: 3px;
 }
-
+.tourblanc{
+padding:2px;
+width: 20px;
+height: 20px;
+background-color: red;
+border-radius: 10px;
+}
+.tourblanc>.pointbleu{
+width:16px;
+height: 16px;
+border-radius:10px;
+background-color: #5cadd3;
+}
 #titre-service p {
      text-align: center;
      width: 600px;
