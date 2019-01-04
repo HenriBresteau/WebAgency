@@ -113,14 +113,17 @@ main {
   background-color: gray;
   margin: 50px auto;
   padding-left: 65px;
-  height: 3px; }
+  height: 3px;
+  position: absolute; }
 
 .tourblanc {
   padding: 2px;
   width: 20px;
   height: 20px;
-  background-color: red;
-  border-radius: 10px; }
+  background-color: orange;
+  border-radius: 10px;
+  position: absolute;
+  top: -8px; }
 
 .tourblanc > .pointbleu {
   width: 16px;
@@ -257,4 +260,4 @@ input[type=submit] {
   border-radius: 5px;
   cursor: pointer; }
 
-/*# sourceMappingURL=styleGenerate.css.map */
+/*# sourceMappingURL=styleGenreate.css.map */
