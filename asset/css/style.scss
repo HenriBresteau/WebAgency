@@ -140,7 +140,7 @@ font-size:32px;
 .trait{
 width: 150px;
 background-color: gray;
-margin: 50px auto;
+margin-left: 45%;
 padding-left: 65px;
 height: 3px;
 position: absolute;
@@ -149,7 +149,7 @@ position: absolute;
 padding:2px;
 width: 20px;
 height: 20px;
-background-color: orange;
+background-color: white;
 border-radius: 10px;
 position: absolute;
 top: -8px;
@@ -161,6 +161,7 @@ border-radius:10px;
 background-color: #5cadd3;
 }
 #titre-service p {
+    padding-top: 15px;
      text-align: center;
      width: 600px;
      margin: auto;
@@ -213,6 +214,7 @@ position: relative;
  }
 
  #titre-projet p {
+  padding-top: 15px;
   text-align: center;
   width: 600px;
   margin: auto;
