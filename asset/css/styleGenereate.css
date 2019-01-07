@@ -102,6 +102,15 @@ nav {
 main {
   font-family: 'Roboto'; }
 
+h1 {
+  color: #272727; }
+
+h2 {
+  color: #242424; }
+
+p {
+  color: #686C71; }
+
 /*--------------  D├®but SERVICES--------------  */
 #titre-service h1 {
   text-align: center;
@@ -113,14 +122,17 @@ main {
   background-color: gray;
   margin: 50px auto;
   padding-left: 65px;
-  height: 3px; }
+  height: 1px;
+  position: relative; }
 
 .tourblanc {
   padding: 2px;
   width: 20px;
   height: 20px;
-  background-color: red;
-  border-radius: 10px; }
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: -9px; }
 
 .tourblanc > .pointbleu {
   width: 16px;
@@ -140,30 +152,40 @@ main {
 
 #ordi {
   margin-top: 35px; }
-
-.services-ux-design {
-  width: 100%;
-  font-size: 0; }
+  #ordi img {
+    width: 510px;
+    height: 319px; }
 
 .services-icone-taille {
   display: inline-block;
-  width: 15%;
-  font-size: 1rem;
-  vertical-align: top; }
+  width: 82px;
+  float: left;
+  vertical-align: top;
+  margin-top: 24px; }
 
 .services-icone {
-  height: 80px;
-  width: 80px;
+  height: 65px;
+  width: 65px;
   border-radius: 50%;
   border: 1px solid grey;
   position: relative; }
+  .services-icone .fas {
+    padding: 17px;
+    color: #5cadd3; }
 
 #description {
   display: flex;
   flex-direction: column;
-  margin-top: 35px; }
+  margin: 35px 5px; }
   #description i {
-    font-size: 85px; }
+    font-size: 30px; }
+  #description .tourblanc {
+    top: 22px;
+    margin-left: 52px; }
+
+.texte {
+  float: right;
+  width: 90%; }
 
 /*--------------  Fin SERVICES--------------  */
 /*--------------  D├®but PROJET--------------  */
