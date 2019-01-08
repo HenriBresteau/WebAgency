@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body, html {
+  height: 100%; }
+
 @font-face {
   font-family: 'Roboto';
   src: url("../font/Roboto-Regular.ttf");
@@ -62,10 +65,10 @@ nav {
 /*--------------  Fin Header--------------  */
 /*-------------- bannierre -------------- */
 #banniere {
-  margin-top: 87px;
-  width: 100%;
   height: 550px;
   background-image: url("../img/slider/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
   position: relative; }
   #banniere strong {
@@ -88,7 +91,7 @@ nav {
     box-shadow: 0px 2px 2px #4494BB; }
 
 #texte-banniere {
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 180px;
   left: 100px; }
@@ -134,7 +137,8 @@ nav {
 /*--------------  Fin Banniere -------------- */
 /*--------------  D├®but Main --------------  */
 main {
-  font-family: 'Roboto'; }
+  font-family: 'Roboto';
+  margin-top: 89px; }
 
 h1 {
   color: #272727; }
@@ -166,12 +170,11 @@ p {
   border-radius: 10px;
   position: absolute;
   top: -9px; }
-
-.tourblanc > .pointbleu {
-  width: 16px;
-  height: 16px;
-  border-radius: 10px;
-  background-color: #5cadd3; }
+  .tourblanc > .pointbleu {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: #5cadd3; }
 
 #titre-service p {
   text-align: center;
@@ -222,16 +225,12 @@ p {
 
 /*--------------  Fin SERVICES--------------  */
 /*--------------  D├®but PROJET--------------  */
+#projet {
+  background-color: #F5F5F5; }
+
 #titre-projet h1 {
   text-align: center;
   text-transform: uppercase; }
-
-#trait-projet {
-  width: 150px;
-  height: 1px;
-  background-color: gray;
-  margin-left: 45%; }
-
 #titre-projet p {
   text-align: center;
   width: 600px;
@@ -256,16 +255,14 @@ figure {
   display: inline-flex;
   flex-flow: column;
   width: 300px; }
-
-img {
-  width: 300px;
-  height: 200px; }
-
-img:hover {
-  background-color: #222;
-  color: #fff;
-  padding: 3px;
-  text-align: center; }
+  figure img {
+    width: 300px;
+    height: 200px; }
+  figure img:hover {
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    text-align: center; }
 
 /* -------------- FIN PROJET -------------- */
 /*-------------- Debut CONTACT ------------------*/
