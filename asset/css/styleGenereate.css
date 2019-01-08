@@ -63,6 +63,9 @@ nav {
     color: black; }
 
 /*--------------  Fin Header--------------  */
+section {
+  padding-top: 10px; }
+
 /*-------------- bannierre -------------- */
 #banniere {
   height: 550px;
@@ -243,13 +246,13 @@ p {
     list-style-type: none; }
   #menu-projet li {
     display: inline;
-    background-color: gray;
+    background-color: #E5E5E5;
     padding: 15px;
-    border-radius: 5px; }
-  #menu-projet li:hover {
-    color: white;
-    background-color: #5cadd3;
-    border-radius: 5px; }
+    color: #64686D; }
+    #bordergauche #menu-projet li {
+      border-radius: 5px 0 0 5px; }
+    #borderdroit #menu-projet li {
+      border-radius: 0 5px 5px 0; }
 
 figure {
   display: inline-flex;

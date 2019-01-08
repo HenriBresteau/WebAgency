@@ -82,6 +82,9 @@ nav {
 }
 
 /*--------------  Fin Header--------------  */
+section{
+padding-top:10px;
+}
 
 /*-------------- bannierre -------------- */
 #banniere {
@@ -308,17 +311,19 @@ p {
 
   li {
     display: inline;
-    background-color: gray;
+    background-color:#E5E5E5;
     padding: 15px;
-    border-radius: 5px;
-  }
+    color: #64686D;
 
-  li:hover {
-    color: white;
-    background-color: #5cadd3;
-    border-radius: 5px;
+      #bordergauche & {
+      border-radius:5px 0 0 5px;
+      }
+      #borderdroit & {
+      border-radius:0 5px 5px 0;
+      }
   }
 }
+
 
 figure {
   display: inline-flex;
