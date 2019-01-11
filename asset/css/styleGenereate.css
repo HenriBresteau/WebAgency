@@ -241,17 +241,28 @@ p {
   display: block; }
 
 #menu-projet {
-  text-align: center; }
+  justify-content: center;
+  display: flex; }
   #menu-projet ul {
-    list-style-type: none; }
+    list-style-type: none;
+    display: flex; }
   #menu-projet li {
     display: inline;
     background-color: #E5E5E5;
-    padding: 15px;
-    color: #64686D; }
-    #bordergauche #menu-projet li {
-      border-radius: 5px 0 0 5px; }
-    #borderdroit #menu-projet li {
+    padding: 12px;
+    color: #64686D;
+    border-bottom: 3px solid currentColor; }
+    #menu-projet li i {
+      position: relative;
+      color: #468CAD;
+      top: 27px;
+      right: 30px; }
+    #menu-projet li:first-child {
+      border-radius: 5px 0 0 5px;
+      color: white;
+      background-color: #5cadd3;
+      border-bottom: 3px solid #468CAD; }
+    #menu-projet li:last-child {
       border-radius: 0 5px 5px 0; }
 
 figure {

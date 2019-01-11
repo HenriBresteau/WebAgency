@@ -303,24 +303,35 @@ p {
 }
 }
 #menu-projet {
-  text-align: center;
+  justify-content: center;
+  display: flex;
 
   ul {
     list-style-type: none;
+    display: flex;
   }
 
   li {
     display: inline;
     background-color:#E5E5E5;
-    padding: 15px;
+    padding: 12px;
     color: #64686D;
+    border-bottom: 3px solid currentColor;
 
-      #bordergauche & {
+    i{
+      position:relative;
+      color: #468CAD;
+      top: 27px;
+      right: 30px;
+    }
+      &:first-child{
       border-radius:5px 0 0 5px;
-      }
-      #borderdroit & {
+      color:white;
+      background-color: #5cadd3;
+      border-bottom:3px solid #468CAD;}
+      &:last-child{
       border-radius:0 5px 5px 0;
-      }
+      }           
   }
 }
 
