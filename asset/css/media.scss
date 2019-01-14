@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px)
+{
+  h1{
+    font-size: 32px;
+  }
+  nav{
+    li{
+      padding-left: 0;
+      display: flex;
+    }
+    li:hover{
+      padding-top: 0;
+    }
+  } 
+  #texte-banniere{
+  width: 65%;
+  left:20%;
+  top:10%;
+  }
+  #banniere {
+  height: 275px;
+    h1{
+      width: 88%;
+    }
+  }
+section {
+    padding-top: 10%;
+}
+  #ex-services{
+  display: block;
+  }
+  #ordi {
+  width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+  #description{
+  margin:0 38px;
+  }
+  .texte{
+  padding-left: 10px;
+  }
+  figure{
+  padding:0 17%;
+  }
+  #contact iframe{
+  position: initial;
+  width: 100%;
+  }
+  #infos{
+  width: 100%;
+  margin:0;
+  }
+}
