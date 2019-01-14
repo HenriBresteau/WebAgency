@@ -186,12 +186,11 @@ p {
   display: block; }
 
 #ex-services {
-  display: flex;
-  justify-content: space-around; }
+  display: flex; }
 
 #ordi {
   margin-top: 35px;
-  width: 60%; }
+  width: 40%; }
   #ordi img {
     width: 510px;
     height: 319px; }
@@ -267,7 +266,7 @@ p {
 
 #portfolio {
   margin: auto;
-  width: 82%; }
+  width: 86%; }
 
 figure {
   display: inline-flex;
@@ -343,5 +342,50 @@ input[type=submit] {
   border: 1px solid #5cadd3;
   border-radius: 5px;
   cursor: pointer; }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px; }
+
+  nav li {
+    padding-left: 0;
+    display: flex; }
+  nav li:hover {
+    padding-top: 0; }
+
+  #texte-banniere {
+    width: 65%;
+    left: 20%;
+    top: 10%; }
+
+  #banniere {
+    height: 275px; }
+    #banniere h1 {
+      width: 88%; }
+
+  #ex-services {
+    display: block; }
+
+  #ordi {
+    width: 100%; }
+    #ordi img {
+      width: 100%; }
+
+  #description {
+    margin: 0 38px; }
+
+  .texte {
+    padding-left: 10px; }
+
+  figure {
+    padding: 0 17%; }
+
+  #contact iframe {
+    position: initial;
+    width: 100%; }
+
+  #infos {
+    width: 100%;
+    margin: 0; } }
 
 /*# sourceMappingURL=styleGenereate.css.map */
