@@ -2,7 +2,8 @@
   font-family: 'Roboto';
   src: url("../font/Roboto-Regular.ttf");
   font-weight: normal;
-  font-style: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'Roboto Bold';
   src: url("../font/Roboto-Bold.ttf");
   font-weight: normal;
@@ -25,7 +26,8 @@ main {
   main h2 {
     color: #242424; }
   main p {
-    color: #686C71; }
+    color: #686C71;
+    font-family: 'Roboto'; }
 
 section {
   padding-top: 4%; }
@@ -66,7 +68,7 @@ nav {
     text-decoration: none; }
   nav li:hover {
     border-top: 2px solid #5cadd3;
-    padding-top: 32px; }
+    padding-top: 35px; }
   nav a:hover {
     font-size: 18px; }
 
@@ -88,21 +90,22 @@ nav {
     text-transform: uppercase; }
   #banniere h2 {
     color: white;
-    text-decoration: none;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    font-size: 20px; }
   #banniere a {
     text-decoration: none;
     color: white;
     background-color: #5cadd3;
     padding: 10px 10px 10px 10px;
     border-radius: 3px;
-    box-shadow: 0px 2px 2px #4494BB; }
+    box-shadow: 0px 2px 2px #4494BB;
+    font-family: 'Roboto Bold'; }
 
 #texte-banniere {
   width: 80%;
   position: absolute;
   top: 180px;
-  left: 100px; }
+  left: 135px; }
 
 #trait-banniere {
   height: 5px;
@@ -240,7 +243,8 @@ nav {
     background-color: #E5E5E5;
     padding: 12px;
     color: #64686D;
-    border-bottom: 3px solid currentColor; }
+    border-bottom: 3px solid currentColor;
+    font-family: 'Roboto'; }
     #menu-projet li i {
       position: relative;
       color: #468CAD;

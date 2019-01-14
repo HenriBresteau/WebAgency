@@ -11,7 +11,7 @@ body {
 
 * {
   box-sizing: border-box;
-
+  
   h1{
   font-family:'Roboto Bold';
   font-size: 42px;
@@ -26,13 +26,12 @@ main {
   }
   p {
   color: #686C71;
+  font-family: 'Roboto';
   }
 }
 section{
   padding-top:4%;
 }
-
-
 
 @import 'menu';
 
