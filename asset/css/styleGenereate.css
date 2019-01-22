@@ -16,7 +16,7 @@ body {
 
 * {
   box-sizing: border-box; }
-  * h1 {
+  * h2 {
     font-family: 'Roboto Bold';
     font-size: 42px;
     color: #272727; }
@@ -147,7 +147,7 @@ nav {
 
 /*--------------  FIN BANNIERE -------------- */
 /*--------------  DEBUT SERVICES--------------  */
-#titre-service h1 {
+#titre-service h2 {
   text-align: center;
   text-transform: uppercase; }
 
@@ -223,7 +223,7 @@ nav {
 #projet {
   background-color: #F5F5F5; }
 
-#titre-projet h1 {
+#titre-projet h2 {
   text-align: center;
   text-transform: uppercase; }
 #titre-projet p {
@@ -315,9 +315,9 @@ figure {
   width: 400px;
   border: 1px solid #ccc;
   border-radius: 15px; }
-  #infos h1 {
-    line-height: 0.4; }
   #infos h2 {
+    line-height: 0.4; }
+  #infos h3 {
     font-size: 17px; }
 
 input[type=text], input[type=email], textarea {
@@ -338,7 +338,7 @@ input[type=submit] {
 
 /*-------------- FIN CONTACT ------------------*/
 @media screen and (max-width: 600px) {
-  h1 {
+  h2 {
     font-size: 32px; }
 
   nav li {
@@ -354,7 +354,7 @@ input[type=submit] {
 
   #banniere {
     height: 275px; }
-    #banniere h1 {
+    #banniere h2 {
       width: 88%; }
 
   section {
