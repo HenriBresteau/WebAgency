@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px)
 {
-  h2{
-    font-size: 32px;
+  h1{
+    font-size: 27px;
   }
   nav{
     li{
@@ -19,8 +19,12 @@
   }
   #banniere {
   height: 275px;
+   h1{
+     width: 330px;
+   }
     h2{
       width: 88%;
+      font-size: 17px;
     }
   }
 section {
@@ -40,6 +44,12 @@ section {
   }
   .texte{
   padding-left: 10px;
+    h2{
+      font-size: 30px;
+    }
+  }
+  #portfolio{
+    width: 95%;
   }
   figure{
   padding:0 17%;

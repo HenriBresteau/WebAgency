@@ -42,7 +42,6 @@ header {
   height: 90px;
   top: 0px;
   background-color: white;
-  opacity: 0.9;
   z-index: 2; }
 
 #logo {
@@ -338,8 +337,8 @@ input[type=submit] {
 
 /*-------------- FIN CONTACT ------------------*/
 @media screen and (max-width: 600px) {
-  h2 {
-    font-size: 32px; }
+  h1 {
+    font-size: 27px; }
 
   nav li {
     padding-left: 0;
@@ -354,8 +353,11 @@ input[type=submit] {
 
   #banniere {
     height: 275px; }
+    #banniere h1 {
+      width: 330px; }
     #banniere h2 {
-      width: 88%; }
+      width: 88%;
+      font-size: 17px; }
 
   section {
     padding-top: 10%; }
@@ -373,6 +375,11 @@ input[type=submit] {
 
   .texte {
     padding-left: 10px; }
+    .texte h2 {
+      font-size: 30px; }
+
+  #portfolio {
+    width: 95%; }
 
   figure {
     padding: 0 17%; }
